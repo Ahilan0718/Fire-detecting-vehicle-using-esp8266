@@ -1,13 +1,13 @@
-#define BLYNK_TEMPLATE_ID "TMPL3RRkLLLJM"
-#define BLYNK_DEVICE_NAME "ESP 8266 FLAME DETECTING FIRE ENGINE"
-#define BLYNK_AUTH_TOKEN "g1rMRWLnCcBTpv8mTFdOJj-nU5J9MyDt"
+#define BLYNK_TEMPLATE_ID "enter_template_id"
+#define BLYNK_DEVICE_NAME "enter_template_name"
+#define BLYNK_AUTH_TOKEN "enter_blynkauthtoken"
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
 // Wi-Fi credentials
-char ssid[] = "Durai";
-char pass[] = "12345678";
+char ssid[] = "enter_ssid";
+char pass[] = "enter_password";
 
 // Blynk virtual pins
 #define VIRTUAL_PIN_V1 V1  // Button to control motor
